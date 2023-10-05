@@ -1,0 +1,71 @@
+.nav-bar-link1{
+    /*1)*/
+    /*marginLeft: "27vmax",*/
+    /*color: 'black',*/
+    /*textDecoration: 'none',*/
+    /*fontSize: "2vmax", //"150%",*/
+    /*backgroundColor: '#144BB6',*/
+    /*paddingLeft: "3vmax", //"10%",*/
+    /*paddingRight: "3vmax", //"10%",*/
+    /*borderRadius: "0px 0px 0px 30px"*/
+
+    /*2)*/
+    /*marginLeft: 27vmax;*/
+    margin-left: 22vmax;
+    color: black;
+    textDecoration: none;
+    /*fontSize: 2vmax;*/
+    font-size: 2vmax;
+    /*backgroundColor: #144BB6;*/
+    background-color: #144BB6;
+
+    padding-left: 3vmax !important;
+    padding-right: 3vmax !important;
+
+    border-radius: 0px 0px 0px 30px;
+    border: #282828 solid 3px;
+}
+
+.nav-bar-link2{
+    /*1)*/
+    /*marginLeft: "0.2vmax", //"0.5%",*/
+    /*color: 'black', //'white',*/
+    /*textDecoration: 'none',*/
+    /*fontSize: "2vmax", //"150%",*/
+    /*backgroundColor: '#144BB6',*/
+    /*paddingLeft: "1.5vmax", // "10%",*/
+    /*paddingRight: "1.5vmax", //"10%",*/
+
+    /*2)*/
+    margin-left: 0.2vmax;
+    color: black;
+    textDecoration: none;
+    font-size: 2vmax;
+    background-color: #144BB6;
+
+    padding-left: 1.5vmax !important;
+    padding-right: 1.5vmax !important;
+
+    border: #282828 solid 3px;
+
+    /*border-radius: 30px 30px 30px 30px;*/
+}
+
+
+/*Pentru 2 hovers:*/
+.nav-bar-link1:hover{
+    /*background-color: #8e2807;*/
+    background-color: #282828;
+    color: white;
+
+    /*Merge si la hover:*/
+    border-radius: 0px 0px 0px 30px;
+}
+
+.nav-bar-link2:hover{
+    /*background-color: #8e2807;*/
+    background-color: #282828;
+    color: white;
+
+    border-radius: 30px 30px 30px 30px;
+}

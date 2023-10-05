@@ -1,0 +1,205 @@
+.noutati {
+    /*color: #8e2807;*/
+}
+
+
+
+/*Parte 1:*/
+.noutati-p1
+{
+    position: absolute;
+
+    /*Margini:*/
+    margin-left: 12vmax;
+    margin-top: 14vmax;
+
+    /*Dimensiuni:*/
+    width: 10vmax;
+    height: 4vmax;
+
+    /*Despre font:*!*/
+    font-family: "Paprika";
+    font-style: normal;
+    font-size: 5.5vmax;
+
+    z-index: 15;
+}
+
+.noutati-divTitle
+{
+    position: absolute;
+
+    margin-top: 13.5vmax;
+    margin-left: 6vmax;
+
+    width: 32vmax;
+    height: 18vmax;
+
+    background: #B61616;
+    border-radius: 3vmax;
+
+    z-index: 10;
+}
+
+.noutati-p2
+{
+    position: absolute;
+
+    /*Margini:*/
+    margin-left: 45vmax;
+    margin-top: 12vmax;
+
+    /*Dimensiuni:*/
+    width: 40vmax;
+    height: 5vmax;
+
+    /*Despre font:*!*/
+    font-family: "Paprika";
+    font-style: normal;
+    font-size: 3.5vmax;
+
+    z-index: 15;
+}
+
+.noutati-polygon1 {
+    position: absolute;
+
+    /*Margini:*/
+    margin-left: 40vmax;
+    margin-top: 25vmax;
+
+    /*Dimensiuni:*/
+    width: 25vmax;
+    height: 8vmax;
+
+    background: rgba(20, 75, 182, 0.3);
+    border-radius: 1vmax;
+    transform: rotate(-118deg);
+}
+
+.noutati-polygon2 {
+    position: absolute;
+
+    /*Margini:*/
+    margin-left: 48vmax;
+    margin-top: 20vmax;
+
+    /*Dimensiuni:*/
+    width: 35vmax;
+    height: 8vmax;
+
+    background: rgba(20, 75, 182, 0.3);
+    border-radius: 1vmax;
+    transform: rotate(-118deg);
+}
+
+.noutati-polygon3 {
+    position: absolute;
+
+    /*Margini:*/
+    margin-left: 70vmax;
+    margin-top: 25vmax;
+
+    /*Dimensiuni:*/
+    width: 25vmax;
+    height: 8vmax;
+
+    background: rgba(20, 75, 182, 0.3);
+    border-radius: 1vmax;
+    transform: rotate(-118deg);
+}
+
+
+
+
+/*Parte 2: Card 1:*/
+/*Nu pot in CSS dau direct in Card:*/
+
+/*Header - Footer*/
+/*css={{justifyItems: "flex-start"}}*/
+/*.noutati-cardHeader1 {*/
+/*    !*justifyItems: flex-start !important;*!*/
+/*    width: 50% !important;*/
+/*}*/
+
+/*css={{ p: 0 }}*/
+/*.noutati-cardBody1 {*/
+/*    !*p: 0;*!*/
+/*}*/
+
+/*Text:*/
+/*noutati-cardText1 {*/
+/*    color: white !important;*/
+/*    fontWeight: semibold !important;*/
+/*    fontSize: 5vmax !important;*/
+/*}*/
+
+.noutati-divAnunt1
+{
+    margin-left: 2.3%;
+    margin-top: 0%;
+
+    width: 24vmax;
+    height: 6vmax;
+
+    opacity: 0.6;
+    position: absolute;
+
+    background: #B61616;
+    border-radius: 3vmax;
+
+    z-index: 1;
+}
+
+
+
+
+/*Parte 3:*/
+/*Nothing*/
+
+.noutati-divAnunt2
+{
+    margin-left: 53vmax;
+    margin-top: 0%;
+
+    width: 24vmax;
+    height: 6vmax;
+
+    opacity: 0.6;
+    position: absolute;
+
+    background: #B61616;
+    border-radius: 3vmax;
+
+    z-index: 1;
+}
+
+
+
+
+/*Parte 4:*/
+/*Nothing*/
+
+.noutati-divAnunt3
+{
+    margin-left: 2.3%;
+    margin-top: 0%;
+
+    width: 24vmax;
+    height: 6vmax;
+
+    opacity: 0.6;
+    position: absolute;
+
+    background: #B61616;
+    border-radius: 3vmax;
+
+    z-index: 1;
+}
+
+
+
+
+/*Parte 5:*/
+/*Nothing*/
+

@@ -1,0 +1,252 @@
+.inchirieri {
+    /*color: #8e2807;*/
+}
+
+
+
+
+
+
+.inchirieri-subMeniu
+{
+    position: fixed;
+    background-color: #144BB6;
+    opacity: 0.8;
+
+    top: 5.9vmax;
+    margin-left: 81vmax;
+
+    border-style: solid !important;
+    border-width: 0.5vmax 0.5vmax 0.5vmax 0.5vmax !important;
+    border-color: black !important;
+    border-radius: 1vmax 0vmax 0.5vmax 0vmax !important;
+
+    z-index: 110;
+}
+
+
+/*95em*/
+@media (max-width: 95em) {
+    .inchirieri-subMeniu {
+        visibility: hidden;
+    }
+}
+
+
+.inchirieri-navbarButon1 {
+    position: absolute !important;
+
+    margin-top: 16vmax !important;
+    margin-left: 0.5vmax !important;
+
+    width: 12vmax !important;
+    height: 4vmax !important;
+
+    background-color: #B61616 !important;
+    color: black !important;
+    border-radius: 50px 50px 50px 50px !important;
+    border: #000000 solid 3px !important;
+
+    font-size: 1.6vmax !important;
+
+    z-index: 110;
+}
+
+
+.inchirieri-navbarButon1:hover {
+    background-color: white !important;
+    /*border-radius: 100px 100px 100px 100px !important;*/
+}
+
+
+.inchirieri-navbarIcon1 {
+    position: absolute;
+
+    margin-left: 13vmax;
+    margin-top: 16.4vmax;
+
+    width: 3vmax;
+    height: 3vmax;
+
+    z-index: 110;
+}
+
+
+.inchirieri-navbarButon2 {
+    position: absolute !important;
+
+    margin-top: 26vmax !important;
+    margin-left: 0.5vmax !important;
+
+    width: 12vmax !important;
+    height: 4vmax !important;
+
+    background-color: #B61616 !important;
+    color: black !important;
+    border-radius: 50px 50px 50px 50px !important;
+    border: #000000 solid 3px !important;
+
+    font-size: 1.6vmax !important;
+
+    z-index: 110;
+}
+
+.inchirieri-navbarButon2:hover {
+    background-color: white !important;
+    /*border-radius: 30px 30px 30px 30px !important;*/
+}
+
+
+.inchirieri-navbarIcon2 {
+    position: absolute;
+
+    margin-left: 13vmax;
+    margin-top: 26.4vmax;
+
+    width: 3vmax;
+    height: 3vmax;
+
+    z-index: 110;
+}
+
+
+.inchirieri-navbarButon3 {
+    position: absolute !important;
+
+    margin-top: 36vmax !important;
+    margin-left: 0.5vmax !important;
+
+    width: 12vmax !important;
+    height: 4vmax !important;
+
+    background-color: #B61616 !important;
+    color: black !important;
+    border-radius: 50px 50px 50px 50px !important;
+    border: #000000 solid 3px !important;
+
+    font-size: 1.6vmax !important;
+
+    z-index: 110;
+}
+
+.inchirieri-navbarButon3:hover {
+    background-color: white !important;
+    /*border-radius: 30px 30px 30px 30px !important;*/
+}
+
+.inchirieri-navbarIcon3 {
+    position: absolute;
+
+    margin-left: 13vmax;
+    margin-top: 36.4vmax;
+
+    width: 3vmax;
+    height: 3vmax;
+
+    z-index: 110;
+}
+
+
+
+
+/*Parte 1:*/
+
+.inchirieri-p1 {
+    position: absolute;
+
+    margin-left: 31vmax;
+    margin-top: 14vmax;
+
+    font-family: "Marcellus";
+    font-style: normal;
+    font-size: 7.5vmax;
+
+    z-index: 11;
+}
+
+.inchirieri-divTitle {
+    margin-left: 22.5vmax;
+    margin-top: 12vmax;
+
+    width: 52vmax;
+    height: 15vmax;
+
+    position: absolute;
+
+    background: #B61616;
+    border: 0.5vmax solid black;
+    border-radius: 5vmax;
+    z-index: 10;
+}
+
+.inchirieri-iconTitle {
+    margin-left: 22.5vmax;
+    margin-top: 34.5vmax;
+
+    width: 52vmax;
+    height: 12vmax;
+
+    position: absolute;
+
+    z-index: 10;
+}
+
+
+/*Parte 2:*/
+
+/*Pentru 2, 3, 4:*/
+.inchirieri-searchButon {
+    position: absolute !important;
+
+    margin-top: 84.6vmax !important;
+    margin-left: 50vmax !important;
+
+    width: 15vmax !important;
+    height: 5vmax !important;
+
+    background-color: #B61616 !important;
+    color: black !important;
+    border-radius: 50px 50px 50px 50px !important;
+    border: #000000 solid 3px !important;
+
+    font-size: 2.8vmax !important;
+
+    z-index: 110;
+}
+
+.inchirieri-searchButon:hover {
+    background-color: #144BB6 !important;
+    /*border-radius: 30px 30px 30px 30px !important;*/
+}
+
+.inchirieri-searchTextField {
+    position: absolute !important;
+
+    margin-top: 84vmax !important;
+    margin-left: 5vmax !important;
+
+    width: 40vmax !important;
+    height: 6vmax !important;
+
+    color: black !important;
+    border-radius: 20px 20px 20px 20px !important;
+    border: #000000 solid 2px !important;
+
+    font-size: 3.5vmax !important;
+
+    z-index: 110;
+}
+
+
+/*Parte 3:*/
+/*Nothing*/
+
+
+/*Parte 4:*/
+/*Nothing*/
+
+
+/*Parte 5:*/
+/*Nothing*/
+
+

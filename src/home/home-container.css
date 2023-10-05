@@ -1,0 +1,583 @@
+/*GENERALE!!!*/
+
+.home{
+    /*overflow: hidden;*/
+    /*padding-top: 10vmax;*/
+}
+
+.home-header {
+    color: #8e2807;
+}
+
+.home-userEmailData {
+    position: absolute;
+
+    margin-top: 9.5vmax !important;
+    margin-left: 58vmax !important;
+
+    font-family: "Paprika";
+    font-style: italic;
+    font-size: 2.5vmax;
+
+    z-index: 10;
+}
+
+.home-p1 {
+    position: absolute;
+
+    /*width: 55%;*/
+    /*height: 25%;*/
+
+    margin-left: 25%;
+    /*margin-top: 30vmax;*/
+    margin-top: 17.5%;
+
+    font-family: "Marcellus";
+    font-style: normal;
+    font-size: 6vmax;
+    /*font-size: 600%;*/
+
+    /*font-weight: 400;*/
+    /*font-size: 96px;*;
+    /*line-height: 110px;*/
+    /*opacity: 1 !important;*/
+
+    z-index: 10;
+}
+
+
+.home-p2 {
+    position: absolute;
+
+    margin-left: 25%;
+    margin-top: 50%;
+
+    font-family: "Paprika";
+    font-style: normal;
+    font-size: 3.5vmax;
+
+    z-index: 10;
+}
+
+
+.home-p3 {
+    position: absolute;
+
+    margin-left: 5%;
+    margin-top: 63%;
+
+    text-align-all: left;
+
+    font-family: "Paprika";
+    font-style: normal;
+    font-size: 2.5vmax;
+
+    z-index: 10;
+}
+
+
+
+.home-p4 {
+    position: absolute;
+
+    margin-left: 37.5%;
+    margin-top: 63%;
+
+    font-family: "Paprika";
+    font-style: normal;
+    font-size: 2.5vmax;
+
+    z-index: 10;
+}
+
+
+
+.home-p5 {
+    position: absolute;
+
+    margin-left: 70%;
+    margin-top: 63%;
+
+    font-family: "Paprika";
+    font-style: normal;
+    font-size: 2.5vmax;
+
+    z-index: 10;
+}
+
+
+.home-p6 {
+    position: absolute;
+
+    margin-left: 58vmax;
+    margin-top: 8vmax;
+
+    width: 38vmax;
+
+    font-family: "Paprika";
+    font-style: normal;
+    font-size: 2.3vmax;
+    text-align: left;
+
+    z-index: 10;
+}
+
+
+.home-p7 {
+    position: absolute;
+
+    margin-left: 9vmax;
+    margin-top: 57vmax;
+
+    /*Din width pot face mai mic:*/
+    width: 42vmax;
+
+    font-family: "Paprika";
+    font-style: normal;
+    font-size: 2.3vmax;
+    text-align: left;
+
+    z-index: 10;
+}
+
+
+.home-p8 {
+    position: absolute;
+
+    margin-left: 39vmax;
+    margin-top: 10vmax;
+
+    /*Din width pot face mai mic:*/
+    /*width: 42vmax;*/
+
+    font-family: "Paprika";
+    font-style: normal;
+    font-size: 3vmax;
+    text-align: left;
+    color: white;
+
+    z-index: 10;
+}
+
+
+
+.home-p9 {
+    position: absolute;
+
+    margin-left: 10vmax;
+    margin-top: 16.5vmax;
+
+    /*Din width pot face mai mic:*/
+    width: 20vmax;
+
+    font-family: "Paprika";
+    font-style: normal;
+    font-size: 2vmax;
+    text-align: left;
+    color: white;
+
+    z-index: 10;
+}
+
+
+.home-p10 {
+    position: absolute;
+
+    margin-left: 42.5vmax;
+    margin-top: 16.5vmax;
+
+    /*Din width pot face mai mic:*/
+    width: 20vmax;
+
+    font-family: "Paprika";
+    font-style: normal;
+    font-size: 2vmax;
+    text-align: left;
+    color: white;
+
+    z-index: 10;
+}
+
+
+.home-p11 {
+    position: absolute;
+
+    margin-left: 66vmax;
+    margin-top: 16.5vmax;
+
+    /*Din width pot face mai mic:*/
+    width: 20vmax;
+
+    font-family: "Paprika";
+    font-style: normal;
+    font-size: 2vmax;
+    text-align: left;
+    color: white;
+
+    z-index: 10;
+}
+
+
+
+
+/*!!!PARTE1!!!*/
+
+
+
+
+
+.home-divTitle {
+    margin-left: 22%;
+    margin-top: 15.75%;
+    /*margin-top: 100vmax;*/
+
+    width: 52vmax;
+    height: 12vmax;
+    /*width: 55%;*/
+    /*height: 25%;*/
+
+    position: absolute;
+    /*width: 983px;*/
+    /*height: 236px;*/
+    /*left: 206px;*/
+    /*top: 285px;*/
+
+    background: #B61616;
+    border-radius: 80px;
+    z-index: 10;
+}
+
+
+.home-divTitleText {
+    position: absolute;
+
+    /*margin-top: 41.2%;*/
+    margin-top: 40.8vmax;
+    /*top: 46vmax;*/
+
+    /*width: 98.8vmax; !*100%;*!*/
+    width: 100%;
+    height: 40vmax;
+
+    background: #D9D9D9;
+    /*mix-blend-mode: multiply;*/
+    border-radius: 50px 50px 0px 0px;
+}
+
+
+
+
+/*!!!PARTE2!!!*/
+
+
+
+
+.home-divCredentials {
+    width: 40vmax;
+    height: 30vmax;
+
+    /*overflow: hidden;*/
+    /*overflow: auto;*/
+}
+
+
+.home-LoginRegisterText
+{
+    position: absolute;
+
+    margin-left: -1vmax;
+    margin-top: 5vmax;
+
+    width: 49vmax;
+    height: 20vmax;
+
+    /*left: 0px;*/
+    /*top: 1348px;*/
+
+    background: #144BB6;
+    opacity: 0.6;
+    border: 8px solid #000000;
+    border-radius: 0px 120px 60px 0px;
+}
+
+
+.home-LoginRegisterTextP1 {
+    position: absolute;
+
+    margin-left: 10%;
+    margin-top: 10%;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 2vmax;
+
+    z-index: 10;
+}
+
+
+.home-LoginRegisterArrow {
+    box-sizing: border-box;
+
+    position: absolute;
+
+    margin-left: 36vmax;
+    margin-top: 20vmax;
+
+    width: 7vmax;
+    height: 0vmax;
+
+    /*left: 5vmax;*/
+    /*top: 5vmax;*/
+
+    border: 0.2vmax solid #E80C0C;
+
+    /*transform: rotate(60deg);*/
+}
+
+.home-LoginRegisterArrowUp {
+    box-sizing: border-box;
+
+    position: absolute;
+
+    margin-left: 41.3vmax;
+    margin-top: 19.4vmax;
+
+    width: 2vmax;
+    height: 0vmax;
+
+    border: 0.2vmax solid #E80C0C;
+
+    transform: rotate(40deg);
+}
+
+.home-LoginRegisterArrowDown {
+    box-sizing: border-box;
+
+    position: absolute;
+
+    margin-left: 41.3vmax;
+    margin-top: 20.5vmax;
+
+    width: 2vmax;
+    height: 0vmax;
+
+    border: 0.2vmax solid #E80C0C;
+
+    transform: rotate(-40deg);
+}
+
+
+.home-LoginRegisterButtons {
+    /*box-sizing: border-box;*/
+
+    position: absolute;
+
+    margin-left: 49vmax;
+    margin-top: 5vmax;
+
+    width: 48vmax;
+    height: 20vmax;
+
+    /*left: 727px;*/
+    /*top: 1348px;*/
+
+    background: #144BB6;
+    opacity: 0.6;
+    border: 8px solid #000000;
+    border-radius: 60px 0px 0px 120px;
+
+    /*Pentru stanga / dreapta*/
+    /*overflow-x: hidden;*/
+    /*overflow-y: hidden;*/
+    /*overflow: hidden;*/
+}
+
+
+/*Nu poti folosi style si class name usor*/
+
+.home-loginStyle {
+    position: absolute !important;
+    /*!important;*/
+
+    margin-top: 8vmax !important;
+    margin-left: 42vmax !important;
+
+    width: 25vmax !important;
+    height: 6vmax !important;
+
+    background-color: #B61616 !important;
+    color: black !important;
+    border-radius: 50px 50px 50px 50px !important;
+    border: #000000 solid 3px !important;
+
+    font-size: 3vmax !important;
+    /*text-align: left !important;*/
+    /*size: large;*/
+    /*border:"black;*/
+    /*'hover':{""}*/
+}
+
+.home-loginStyle:hover {
+    background-color: white !important;
+    border-radius: 30px 30px 30px 30px !important;
+}
+
+.home-registerStyle {
+    position: absolute !important;
+
+    margin-top: 16vmax !important;
+    margin-left: 42vmax !important;
+
+    width: 25vmax !important;
+    height: 6vmax !important;
+
+    background-color: #B61616 !important;
+    color: black !important;
+    border-radius: 50px 50px 50px 50px !important;
+    border: #000000 solid 3px !important;
+
+    font-size: 3vmax !important;
+}
+
+.home-registerStyle:hover {
+    background-color: white !important;
+    border-radius: 30px 30px 30px 30px !important;
+}
+
+
+
+
+/*!!!PARTE3!!!*/
+
+
+.home-videoPlayer {
+    position: absolute !important;
+
+    z-index: 10 !important;
+
+    margin-left: 6vmax !important;
+    margin-top: 16vmax !important;
+
+    width: 45vmax !important;
+    height: 25.45vmax !important;
+
+    /*border-radius: 50px 50px 50px 50px !important;*/
+    border: #000000 solid 3px !important;
+}
+
+
+.home-frontImage {
+    position: absolute;
+
+    margin-left: 56vmax;
+    margin-top: 64vmax;
+
+    width: 40vmax;
+    height: 40vmax;
+
+    z-index: 10;
+}
+
+
+
+/*!!!PARTE4!!!*/
+
+
+/*Resize prost:*/
+.home-contactInfo{
+    position: absolute;
+
+    margin-top: 10vmax;
+
+    /*width: 98.9vmax;*/
+    /*Cateodata procent cateodata vmax:*/
+    width: 100%;
+    height: 25vmax;
+
+    /*background: #D9D9D9;*/
+    background: rgba(12, 1, 1, 0.8);
+    border-radius: 3vmax 3vmax 0vmax 0vmax;
+
+    /*z-index: 10;*/
+    /*background: rgba(12, 1, 1, 0.8);*/
+    /*border-radius: 100px;*/
+}
+
+
+.home-Icon1 {
+    position: absolute;
+
+    margin-left: -22vmax;
+    margin-top: 29vmax;
+
+    width: 8vmax;
+    height: 5vmax;
+
+    z-index: 10;
+}
+
+
+.home-Icon2 {
+    position: absolute;
+
+    margin-left: 2vmax;
+    margin-top: 29vmax;
+
+    width: 8vmax;
+    height: 5vmax;
+
+    z-index: 10;
+}
+
+
+.home-Icon3 {
+    position: absolute;
+
+    margin-left: 34vmax;
+    margin-top: 29vmax;
+
+    width: 8vmax;
+    height: 5vmax;
+
+    z-index: 10;
+}
+
+
+
+
+/*DONE*/
+
+
+
+
+
+
+/*Ciorne!!!*/
+
+/*.home-backgroundImg1*/
+/*{*/
+/*    !*1)*!*/
+/*    !*background: url(../commons/images/backgroundImg1.png);*!*/
+/*    !*opacity: 0.8;*!*/
+/*    !*border: 10px solid #000000;*!*/
+
+/*    !*width: 90%;*!*/
+/*    !*heigth: 50%;*!*/
+
+/*    !*box-sizing: border-box;*!*/
+/*    !*position: absolute;*!*/
+
+/*    !*width: 1535px;*!*/
+/*    !*height: 1186px;*!*/
+/*    !*left: calc(50% - 1535px/2 + 1.5px);*!*/
+/*    !*top: calc(50% - 1186px/2 - 1454.5px);*!*/
+
+
+
+/*    !*2)*!*/
+/*    !*background: url(../commons/images/backgroundImg1.png);*!*/
+/*    !*opacity: 0.8;*!*/
+/*    !*!*border: 10px solid #000000;*!*!*/
+/*    !*width: 1535px;*!*/
+/*    !*height: 1186px;*!*/
+/*}*/

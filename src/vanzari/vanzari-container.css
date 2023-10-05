@@ -1,0 +1,453 @@
+.vanzari {
+    /*color: #8e2807;*/
+    display: unset;
+}
+
+
+/*Parte 0:*/
+
+.vanzari-subMeniu
+{
+    position: fixed;
+    /*position: sticky;*/
+    /*display: inline-block;*/
+    /*float: bottom;*/
+
+    /*resize: block !important;*/
+    /*resize: unset;*/
+
+    background-color: #144BB6;
+    opacity: 0.8;
+
+    top: 5.9vmax;
+    /*top: 6.5vmax;*/
+    /*width: 18vmax;*/
+    margin-left: 81vmax;
+
+    /*height: 100%;*/
+    /*top: 12%;*/
+    /*float: right;*/
+
+    border-style: solid !important;
+    border-width: 0.5vmax 0.5vmax 0.5vmax 0.5vmax !important;
+    border-color: black !important;
+    border-radius: 1vmax 0vmax 0.5vmax 0vmax !important;
+
+    /*zIndex: 120;*/
+    z-index: 110;
+
+    /*overflow-y: hidden;*/
+}
+
+
+
+/*Pentru cand dai resize, sa dispara:*/
+/*In CSS nu in JS:*/
+/*95em*/
+@media (max-width: 95em) {
+    .vanzari-subMeniu {
+        visibility: hidden;
+    }
+}
+
+
+.vanzari-navbarButon1 {
+    position: absolute !important;
+
+    margin-top: 16vmax !important;
+    margin-left: 0.5vmax !important;
+
+    width: 12vmax !important;
+    height: 4vmax !important;
+
+    background-color: #B61616 !important;
+    color: black !important;
+    border-radius: 50px 50px 50px 50px !important;
+    border: #000000 solid 3px !important;
+
+    font-size: 1.6vmax !important;
+
+    z-index: 110;
+}
+
+.vanzari-navbarButon1:hover {
+    background-color: white !important;
+    /*border-radius: 100px 100px 100px 100px !important;*/
+}
+
+
+.vanzari-navbarIcon1 {
+    position: absolute;
+
+    margin-left: 13vmax;
+    margin-top: 16.4vmax;
+
+    width: 3vmax;
+    height: 3vmax;
+
+    z-index: 110;
+}
+
+
+.vanzari-navbarButon2 {
+    position: absolute !important;
+
+    margin-top: 26vmax !important;
+    margin-left: 0.5vmax !important;
+
+    width: 12vmax !important;
+    height: 4vmax !important;
+
+    background-color: #B61616 !important;
+    color: black !important;
+    border-radius: 50px 50px 50px 50px !important;
+    border: #000000 solid 3px !important;
+
+    font-size: 1.6vmax !important;
+
+    z-index: 110;
+}
+
+.vanzari-navbarButon2:hover {
+    background-color: white !important;
+    /*border-radius: 30px 30px 30px 30px !important;*/
+}
+
+
+.vanzari-navbarIcon2 {
+    position: absolute;
+
+    margin-left: 13vmax;
+    margin-top: 26.4vmax;
+
+    width: 3vmax;
+    height: 3vmax;
+
+    z-index: 110;
+}
+
+
+.vanzari-navbarButon3 {
+    position: absolute !important;
+
+    margin-top: 36vmax !important;
+    margin-left: 0.5vmax !important;
+
+    width: 12vmax !important;
+    height: 4vmax !important;
+
+    background-color: #B61616 !important;
+    color: black !important;
+    border-radius: 50px 50px 50px 50px !important;
+    border: #000000 solid 3px !important;
+
+    font-size: 1.6vmax !important;
+
+    z-index: 110;
+}
+
+.vanzari-navbarButon3:hover {
+    background-color: white !important;
+    /*border-radius: 30px 30px 30px 30px !important;*/
+}
+
+.vanzari-navbarIcon3 {
+    position: absolute;
+
+    margin-left: 13vmax;
+    margin-top: 36.4vmax;
+
+    width: 3vmax;
+    height: 3vmax;
+
+    z-index: 110;
+}
+
+
+
+
+/*Parte 1:*/
+
+
+
+/*Analog:*/
+.vanzari-location {
+    position: absolute;
+
+    margin-top: 5vmax !important;
+    margin-left: 20vmax !important;
+
+    font-family: "Paprika";
+    font-style: italic;
+    font-size: 3vmax;
+
+    z-index: 10;
+}
+
+
+
+/*Buton Add:*/
+/*Analog:*/
+.vanzari-addStyle {
+    position: absolute !important;
+
+    margin-top: 13vmax !important;
+    margin-left: -47vmax !important;
+
+    width: 25vmax !important;
+    height: 6vmax !important;
+
+    background-color: #B61616 !important;
+    color: black !important;
+    border-radius: 50px 50px 50px 50px !important;
+    border: #000000 solid 3px !important;
+
+    font-size: 3vmax !important;
+}
+
+.vanzari-addStyle:hover {
+    background-color: white !important;
+    border-radius: 30px 30px 30px 30px !important;
+}
+
+
+
+/*Buton Update:*/
+.vanzari-updateStyle {
+    position: absolute !important;
+
+    margin-top: 13vmax !important;
+    margin-left: -21vmax !important;
+
+    width: 25vmax !important;
+    height: 6vmax !important;
+
+    background-color: #B61616 !important;
+    color: black !important;
+    border-radius: 50px 50px 50px 50px !important;
+    border: #000000 solid 3px !important;
+
+    font-size: 3vmax !important;
+}
+
+.vanzari-updateStyle:hover {
+    background-color: white !important;
+    border-radius: 30px 30px 30px 30px !important;
+}
+
+
+
+/*Buton Delete:*/
+.vanzari-deleteStyle {
+    position: absolute !important;
+
+    margin-top: 13vmax !important;
+    margin-left: 5vmax !important;
+
+    width: 25vmax !important;
+    height: 6vmax !important;
+
+    background-color: #B61616 !important;
+    color: black !important;
+    border-radius: 50px 50px 50px 50px !important;
+    border: #000000 solid 3px !important;
+
+    font-size: 3vmax !important;
+}
+
+.vanzari-deleteStyle:hover {
+    background-color: white !important;
+    border-radius: 30px 30px 30px 30px !important;
+}
+
+
+
+
+/*Buton Add Programare:*/
+.programare-addStyle {
+    position: absolute !important;
+
+    margin-top: 13vmax !important;
+    margin-left: -21vmax !important;
+
+    width: 25vmax !important;
+    height: 6vmax !important;
+
+    background-color: #B61616 !important;
+    color: black !important;
+    border-radius: 50px 50px 50px 50px !important;
+    border: #000000 solid 3px !important;
+
+    font-size: 3vmax !important;
+}
+
+.programare-addStyle:hover {
+    background-color: white !important;
+    border-radius: 30px 30px 30px 30px !important;
+}
+
+
+
+/*Pentru date and time:*/
+.vanzari-date {
+    position: absolute !important;
+
+    margin-top: 1vmax !important;
+    margin-left: 8vmax !important;
+
+    width: 15vmax !important;
+    height: 4vmax !important;
+
+    background-color: #B61616;
+
+    font-size: 1vmax !important;
+
+    border-radius: 50px 50px 50px 50px !important;
+    border: #000000 solid 3px !important;
+}
+
+.vanzari-time {
+    position: absolute !important;
+
+    margin-top: 1vmax !important;
+    margin-left: 28vmax !important;
+
+    width: 15vmax !important;
+    height: 4vmax !important;
+
+    background-color: #B61616;
+
+    font-size: 1vmax !important;
+
+    border-radius: 50px 50px 50px 50px !important;
+    border: #000000 solid 3px !important;
+}
+
+
+
+/*Buton Chart Rezervari Locatie:*/
+.programare-chartOnLocation {
+    position: absolute !important;
+
+    margin-top: 1vmax !important;
+    margin-left: -32vmax !important;
+
+    width: 20vmax !important;
+    height: 3vmax !important;
+
+    background-color: #B61616 !important;
+    color: black !important;
+    border-radius: 20px 20px 20px 20px !important;
+    border: #000000 solid 2px !important;
+
+    font-size: 1vmax !important;
+}
+
+.programare-chartOnLocation:hover {
+    background-color: white !important;
+    border-radius: 10px 10px 10px 10px !important;
+}
+
+
+
+
+.vanzari-p1 {
+    position: absolute;
+
+    margin-left: 31vmax;
+    margin-top: 14vmax;
+
+    font-family: "Marcellus";
+    font-style: normal;
+    font-size: 7.5vmax;
+
+    z-index: 11;
+}
+
+.vanzari-divTitle {
+    margin-left: 22.5vmax;
+    margin-top: 12vmax;
+
+    width: 52vmax;
+    height: 15vmax;
+
+    position: absolute;
+
+    background: #B61616;
+    border: 0.5vmax solid black;
+    border-radius: 5vmax;
+    z-index: 10;
+}
+
+.vanzari-iconTitle {
+    margin-left: 22.5vmax;
+    margin-top: 34.5vmax;
+
+    width: 52vmax;
+    height: 12vmax;
+
+    position: absolute;
+
+    z-index: 10;
+}
+
+
+/*Parte 2:*/
+
+/*Pentru 2, 3, 4:*/
+.vanzari-searchButon {
+    position: absolute !important;
+
+    margin-top: 84.6vmax !important;
+    margin-left: 50vmax !important;
+
+    width: 15vmax !important;
+    height: 5vmax !important;
+
+    background-color: #B61616 !important;
+    color: black !important;
+    border-radius: 50px 50px 50px 50px !important;
+    border: #000000 solid 3px !important;
+
+    font-size: 2.8vmax !important;
+
+    z-index: 110;
+}
+
+.vanzari-searchButon:hover {
+    background-color: #144BB6 !important;
+    /*border-radius: 30px 30px 30px 30px !important;*/
+}
+
+.vanzari-searchTextField {
+    position: absolute !important;
+
+    margin-top: 84vmax !important;
+    margin-left: 5vmax !important;
+
+    width: 40vmax !important;
+    height: 6vmax !important;
+
+    /*background-color: #B61616 !important;*/
+    color: black !important;
+    border-radius: 20px 20px 20px 20px !important;
+    border: #000000 solid 2px !important;
+
+    font-size: 3.5vmax !important;
+
+    z-index: 110;
+}
+
+
+
+
+/*Parte 3:*/
+/*Nothing*/
+
+
+/*Parte 4:*/
+/*Nothing*/
+
+
+/*Parte 5:*/
+/*Nothing*/

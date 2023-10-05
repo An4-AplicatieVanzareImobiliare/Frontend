@@ -1,0 +1,11 @@
+/* HomeIcon */
+
+.houseIcon{
+    position: absolute;
+    left: 7.57%;
+    right: 86.46%;
+    top: 0.66%;
+    bottom: 97.5%;
+
+    background: #000000;
+}
